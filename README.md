@@ -5,7 +5,7 @@ Custom Claude Code agent definitions from my personal agent workspace.
 ## Install
 
 ```bash
-cp *.md ~/.claude/agents/
+cp agents/*.md ~/.claude/agents/
 ```
 
 `CLAUDE.md` is the root orchestration prompt (Brain agent) — copy it separately to your project root or `~/.claude/` if needed.
