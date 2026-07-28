@@ -15,7 +15,6 @@ cp agents/*.md ~/.claude/agents/
 ### Orchestration & Memory
 
 - **CLAUDE.md (Brain)** — Root orchestration prompt. Acts as chief-of-staff: interprets requests, routes work to staff agents by domain (sales, marketing, engineering, data, finance, legal, HR, and more), reviews results, and reports back with a single consolidated summary. Includes memory policy, safety rules, and routing logic.
-- **lily** — Main personal orchestrator. Auto-dispatches 53 subagents based on trigger signals: decides whether to handle a task directly or fan out to subagents in parallel/sequence, then reports back in one line. Broad entry point for general work, planning, coding, review, and deliverables.
 - **memory-agent** — Automatically captures session context into `.auto-memory/` and `CLAUDE.md`. Analyzes session summaries and git traces to record project context, user preferences, and work patterns, keeping them retrievable across sessions.
 
 ### Content & Deliverables
