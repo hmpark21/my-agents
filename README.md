@@ -2,6 +2,10 @@
 
 Custom Claude Code agent definitions from my personal agent workspace.
 
+These agents are optimized for **daily office work** and **vibe coding**. The recommended way to use them: keep the core rules intact, then ask Claude to edit the rest of the workflow to fit your own taste — prompts, output formats, schedules, and routing are all meant to be personalized.
+
+> **Strongly recommended:** use **CLAUDE.md (Brain)** and **memory-agent** together as your baseline. The Brain handles orchestration and routing, and the memory agent keeps context persistent across sessions — the rest of the agents work best on top of these two.
+
 ## Install
 
 ```bash
